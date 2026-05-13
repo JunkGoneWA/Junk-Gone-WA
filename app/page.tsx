@@ -91,26 +91,34 @@ export default function JunkGoneWA() {
         <div className="max-w-4xl mx-auto bg-white shadow-2xl rounded-3xl p-10 border">
           <h2 className="text-4xl font-bold text-center mb-6">Get a Free Quote</h2>
 
-          <form className="grid md:grid-cols-2 gap-6">
+          <form 
+  action="https://formspree.io/f/mvzlylvk"
+  method="POST"
+  className="grid md:grid-cols-2 gap-6"
+>
             <input
               type="text"
+              name="name"
               placeholder="Full Name"
               className="border p-4 rounded-2xl"
             />
 
             <input
               type="tel"
+              name="phone"
               placeholder="Phone Number"
               className="border p-4 rounded-2xl"
             />
 
             <input
               type="email"
+              name="email"
               placeholder="Email Address"
               className="border p-4 rounded-2xl md:col-span-2"
             />
 
             <textarea
+              name="job"
               placeholder="Describe your junk removal job"
               rows={6}
               className="border p-4 rounded-2xl md:col-span-2"
