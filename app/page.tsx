@@ -112,7 +112,7 @@ export default function JunkGoneWA() {
 
             <textarea
               placeholder="Describe your junk removal job"
-              rows="6"
+              rows={6}
               className="border p-4 rounded-2xl md:col-span-2"
             ></textarea>
 
@@ -227,7 +227,7 @@ export default function JunkGoneWA() {
               />
 
               <textarea
-                rows="4"
+                rows={4}
                 placeholder="What do you need removed?"
                 className="w-full p-4 rounded-2xl bg-gray-800 border border-gray-700"
               ></textarea>
