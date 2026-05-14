@@ -153,18 +153,31 @@ export default function JunkGoneWA() {
 
           <div className="grid md:grid-cols-3 gap-8">
             {[1, 2, 3].map((item) => (
-              <div
-                key={item}
-                className="bg-white rounded-3xl overflow-hidden shadow-xl"
-              >
-                <div className="h-48 bg-gray-300 flex items-center justify-center text-2xl font-bold text-gray-500">
-                  Before Photo
-                </div>
+              <div className="bg-white rounded-3xl overflow-hidden shadow-xl">
+  <div className="relative">
+    <img
+      src="/before workshop.JPG"
+      alt="Before junk removal"
+      className="h-64 w-full object-cover"
+    />
 
-                <div className="h-48 bg-green-200 flex items-center justify-center text-2xl font-bold text-green-800">
-                  After Photo
-                </div>
-              </div>
+    <div className="absolute top-4 left-4 bg-black text-white px-4 py-1 rounded-full font-bold">
+      BEFORE
+    </div>
+  </div>
+
+  <div className="relative">
+    <img
+      src="/after workshop.png"
+      alt="After junk removal"
+      className="h-64 w-full object-cover"
+    />
+
+    <div className="absolute top-4 left-4 bg-green-600 text-white px-4 py-1 rounded-full font-bold">
+      AFTER
+    </div>
+  </div>
+</div>
             ))}
           </div>
         </div>
