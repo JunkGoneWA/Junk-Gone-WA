@@ -94,6 +94,7 @@ export default function JunkGoneWA() {
           <form 
   action="https://formspree.io/f/mvzlylvk"
   method="POST"
+  encType="multipart/form-data"
   className="grid md:grid-cols-2 gap-6"
 >
             <input
@@ -123,6 +124,12 @@ export default function JunkGoneWA() {
               rows={6}
               className="border p-4 rounded-2xl md:col-span-2"
             ></textarea>
+            <input
+  type="file"
+  name="photo"
+  accept="image/*"
+  className="border p-4 rounded-2xl md:col-span-2"
+/>
 
             <button
               className="bg-green-600 hover:bg-green-700 text-white py-4 rounded-2xl font-bold text-lg md:col-span-2 transition"
