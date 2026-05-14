@@ -162,7 +162,7 @@ export default function JunkGoneWA() {
     />
 
     <div className="absolute top-4 left-4 bg-black text-white px-4 py-1 rounded-full font-bold">
-      BEFORE
+      src="/before workshop.JPG"
     </div>
   </div>
 
@@ -174,7 +174,7 @@ export default function JunkGoneWA() {
     />
 
     <div className="absolute top-4 left-4 bg-green-600 text-white px-4 py-1 rounded-full font-bold">
-      AFTER
+      src="/after workshop.png"
     </div>
   </div>
 </div>
