@@ -125,11 +125,15 @@ export default function JunkGoneWA() {
               className="border p-4 rounded-2xl md:col-span-2"
             ></textarea>
             <input
-  type="file"
-  name="photo"
-  accept="image/*"
+  type="text"
+  name="photoLink"
+  placeholder="Paste Google Drive/iCloud photo link here (optional)"
   className="border p-4 rounded-2xl md:col-span-2"
 />
+
+<p className="text-sm text-gray-500 md:col-span-2">
+  For faster quotes, send photos directly to 0404 769 325.
+</p>
 
             <button
               className="bg-green-600 hover:bg-green-700 text-white py-4 rounded-2xl font-bold text-lg md:col-span-2 transition"
